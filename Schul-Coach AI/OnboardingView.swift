@@ -23,7 +23,7 @@ struct OnboardingView: View {
         NavigationView {
             VStack(spacing: 0) {
                 // Progress Bar
-                ProgressView(value: Double(currentStep), total: Double(totalSteps))
+                SwiftUI.ProgressView(value: Double(currentStep), total: Double(totalSteps))
                     .progressViewStyle(LinearProgressViewStyle(tint: .blue))
                     .scaleEffect(x: 1, y: 4, anchor: .center)
                     .padding(.horizontal)

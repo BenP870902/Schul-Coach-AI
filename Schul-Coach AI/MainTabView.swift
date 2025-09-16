@@ -43,7 +43,7 @@ struct MainTabView: View {
                     .tag(3)
             }
             
-            ProgressView(userProfile: userProfile)
+            LearningProgressView(userProfile: userProfile)
                 .tabItem {
                     Image(systemName: "chart.line.uptrend.xyaxis")
                     Text("Fortschritt")

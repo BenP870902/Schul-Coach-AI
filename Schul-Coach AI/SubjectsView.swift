@@ -194,7 +194,7 @@ struct SubjectCard: View {
                     .foregroundColor(.primary)
                 
                 // Progress indicator (placeholder)
-                ProgressView(value: 0.65)
+                SwiftUI.ProgressView(value: 0.65)
                     .progressViewStyle(LinearProgressViewStyle(tint: .blue))
                     .scaleEffect(x: 1, y: 0.5)
                 
@@ -376,8 +376,8 @@ struct TopicCard: View {
                             .fill(Color(.systemGray5))
                     )
                 
-                ProgressView(value: progress)
-                    .progressViewStyle(LinearProgressViewStyle(tint: .blue))
+                    SwiftUI.ProgressView(value: progress)
+                        .progressViewStyle(LinearProgressViewStyle(tint: .blue))
                     .scaleEffect(x: 1, y: 0.5)
                 
                 Text("\(Int(progress * 100))% abgeschlossen")

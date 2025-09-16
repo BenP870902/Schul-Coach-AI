@@ -6,9 +6,8 @@
 //
 
 import SwiftUI
-import Charts
 
-struct ProgressView: View {
+struct LearningProgressView: View {
     let userProfile: UserProfile?
     @State private var selectedTimeframe: Timeframe = .week
     @State private var showDetailView = false
@@ -388,7 +387,7 @@ struct SubjectProgressRow: View {
                         .foregroundColor(.primary)
                     
                     HStack {
-                        ProgressView(value: progress)
+                        SwiftUI.ProgressView(value: progress)
                             .progressViewStyle(LinearProgressViewStyle(tint: .blue))
                             .scaleEffect(x: 1, y: 0.8)
                         
@@ -596,7 +595,7 @@ struct TopicProgressRow: View {
                 }
                 
                 HStack {
-                    ProgressView(value: topic.progress)
+                    SwiftUI.ProgressView(value: topic.progress)
                         .progressViewStyle(LinearProgressViewStyle(tint: .blue))
                         .scaleEffect(x: 1, y: 0.8)
                     
@@ -613,7 +612,7 @@ struct TopicProgressRow: View {
 }
 
 #Preview {
-    ProgressView(userProfile: UserProfile(
+    LearningProgressView(userProfile: UserProfile(
         name: "Max Mustermann",
         bundesland: .bayern,
         schulform: .gymnasium,

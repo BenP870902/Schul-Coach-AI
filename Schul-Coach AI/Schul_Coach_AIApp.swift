@@ -18,9 +18,8 @@ struct Schul_Coach_AIApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .preferredColorScheme(.light) // Unterstützt auch Dark Mode
                 .onAppear {
-                    // App-Start Analytics oder Setup
+                    // App-Start Setup
                     print("Schul-Coach AI gestartet")
                 }
         }
