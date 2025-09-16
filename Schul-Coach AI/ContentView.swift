@@ -8,14 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var hasCompletedOnboarding = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Group {
+            if hasCompletedOnboarding {
+                MainTabView()
+            } else {
+                OnboardingView()
+            }
         }
-        .padding()
+        .onAppear {
+            hasCompletedOnboarding = UserDefaults.standard.bool(forKey: "hasCompletedOnboarding")
+        }
     }
 }
 
