@@ -1,0 +1,133 @@
+/* 
+  Localizable.strings
+  Schul-Coach AI
+  
+  German Localization
+*/
+
+// Navigation
+"home" = "Start";
+"subjects" = "Fächer";
+"ai_tutor" = "KI-Tutor";
+"games" = "Spiele";
+"progress" = "Fortschritt";
+"profile" = "Profil";
+
+// Onboarding
+"welcome_title" = "Willkommen bei Schul-Coach AI";
+"welcome_subtitle" = "Dein persönlicher KI-Lernbegleiter für alle Schulfächer";
+"whats_your_name" = "Wie heißt du?";
+"your_name" = "Dein Name";
+"which_state" = "In welchem Bundesland gehst du zur Schule?";
+"which_school" = "Welche Schule besuchst du?";
+"which_subjects" = "Welche Fächer magst du besonders?";
+"select_up_to_three" = "Wähle bis zu 3 Lieblingsfächer aus:";
+"back" = "Zurück";
+"next" = "Weiter";
+"lets_go" = "Los geht's!";
+
+// Home Screen
+"good_morning" = "Guten Morgen,";
+"good_afternoon" = "Guten Tag,";
+"good_evening" = "Guten Abend,";
+"good_night" = "Gute Nacht,";
+"today_recommended" = "Heute empfohlen";
+"show_all" = "Alle anzeigen";
+"your_favorite_subjects" = "Deine Lieblingsfächer";
+"homework" = "Hausaufgaben";
+"add" = "Hinzufügen";
+"tomorrow" = "Morgen";
+"friday" = "Freitag";
+
+// Subjects
+"search_subjects" = "Fächer durchsuchen...";
+"all" = "Alle";
+"favorites" = "Favoriten";
+"core_subjects" = "Hauptfächer";
+"languages" = "Sprachen";
+"sciences" = "Naturwissenschaften";
+"humanities" = "Geisteswissenschaften";
+"arts_music" = "Kunst & Musik";
+"completed" = "abgeschlossen";
+
+// AI Tutor
+"select_subject" = "Fach auswählen";
+"ask_question" = "Stelle deine Frage...";
+"example_questions" = "Beispielfragen:";
+"explain_fractions" = "Erkläre mir Bruchrechnung";
+"english_verbs" = "Wie konjugiere ich englische Verben?";
+"middle_ages" = "Was passierte im Mittelalter?";
+"help_homework" = "Hilf mir bei meinen Hausaufgaben";
+
+// Games
+"learning_games" = "Lernspiele";
+"play_learn" = "Spielend lernen! 🎮";
+"discover_games" = "Entdecke spannende Lernspiele für deine Klassenstufe";
+"all_games" = "Alle Spiele";
+"math" = "Rechnen";
+"language" = "Sprache";
+"knowledge" = "Wissen";
+"memory" = "Gedächtnis";
+"easy" = "Leicht";
+"medium" = "Mittel";
+"hard" = "Schwer";
+"minutes" = "Min";
+
+// Progress
+"learning_progress" = "Lernfortschritt";
+"total_points" = "Gesamtpunkte";
+"learning_streak" = "Lernstreak";
+"badges" = "Abzeichen";
+"days" = "Tage";
+"reached" = "Erreicht";
+"week" = "Woche";
+"month" = "Monat";
+"year" = "Jahr";
+
+// Profile
+"edit_profile" = "Profil bearbeiten";
+"premium_member" = "Premium Mitglied";
+"upgrade_to_premium" = "Upgrade zu Premium";
+"unlimited_access" = "Unbegrenzter Zugang zu allen Funktionen und Inhalten";
+"from" = "Ab";
+"per_month" = "/Monat";
+"settings" = "Einstellungen";
+"help_support" = "Hilfe & Support";
+"feedback" = "Feedback";
+
+// Premium
+"premium_title" = "Schul-Coach AI Premium";
+"premium_subtitle" = "Unbegrenztes Lernen für maximalen Erfolg";
+"unlimited_access_title" = "Unbegrenzter Zugang";
+"unlimited_access_desc" = "Alle Fächer, Themen und Übungen ohne Limits";
+"advanced_ai_title" = "Erweiterte KI-Funktionen";
+"advanced_ai_desc" = "Personalisierte Lernpläne und intelligente Empfehlungen";
+"premium_games_title" = "Premium-Lernspiele";
+"premium_games_desc" = "Exklusive Spiele und interaktive Inhalte";
+"detailed_reports_title" = "Detaillierte Berichte";
+"detailed_reports_desc" = "Ausführliche Fortschrittsanalysen für Eltern";
+"family_account_title" = "Familienaccount";
+"family_account_desc" = "Bis zu 4 Kinder in einem Account verwalten";
+"choose_plan" = "Wähle deinen Plan";
+"monthly" = "Monatlich";
+"yearly" = "Jährlich";
+"save_35" = "35% sparen";
+"start_premium" = "Premium starten";
+"free_trial" = "7 Tage kostenlos testen, danach automatische Verlängerung";
+
+// Common
+"cancel" = "Abbrechen";
+"save" = "Speichern";
+"done" = "Fertig";
+"close" = "Schließen";
+"continue" = "Weiter";
+"start" = "Start";
+"play" = "Spielen";
+"learn" = "Lernen";
+"practice" = "Üben";
+"test" = "Testen";
+"points" = "Punkte";
+"time" = "Zeit";
+"difficulty" = "Schwierigkeit";
+"grade" = "Klasse";
+"preschool" = "Vorschule";
